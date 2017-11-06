@@ -1,0 +1,27 @@
+.center {
+    margin: 0 auto;
+}
+
+.site-header {
+    height: 100px;
+    background-color: lightblue;
+}
+
+
+.site-main-inner {
+    width: 80%;      
+}
+
+.content {
+    width: 60%;
+    height: 100px;
+    float: left;
+    background-color: bisque;
+}
+
+.sidebar {
+    width: 40%;
+    height: 100px;
+    overflow: auto;
+    background-color: cadetblue;
+}
