@@ -10,7 +10,7 @@ body {
     width: 1024px;
     height: 100px;
     margin: 0 auto;
-    background-color: bisque;
+/*    background-color: bisque;*/
 }
 
 .site-main {
@@ -21,7 +21,7 @@ body {
     width: 1024px;
     height: 1000px;
     margin: 0 auto;
-    background-color: black;
+/*    background-color: black;*/
 }
 
 .site-footer {
@@ -32,6 +32,6 @@ body {
     width: 1024px;
     height: 100px;
     margin: 0 auto;
-    background-color: firebrick;
-    
+/*    background-color: firebrick;*/
+
 }
