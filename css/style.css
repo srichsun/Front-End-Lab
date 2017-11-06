@@ -2,6 +2,10 @@ body {
     background: #f1f1f1
 }
 
+.container {
+    margin: 0 auto;
+}
+
 .site-header {
     background-color: darkcyan;
 }
@@ -9,7 +13,6 @@ body {
 .site-header-inner {
     width: 1024px;
     height: 100px;
-    margin: 0 auto;
     background-color: bisque;
 }
 
@@ -20,7 +23,6 @@ body {
 .site-main-inner {
     width: 1024px;
     height: 1000px;
-    margin: 0 auto;
     background-color: black;
 }
 
@@ -31,7 +33,7 @@ body {
 .site-footer-inner {
     width: 1024px;
     height: 100px;
-    margin: 0 auto;
     background-color: firebrick;
 
 }
+
