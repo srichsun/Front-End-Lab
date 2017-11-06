@@ -22,7 +22,7 @@
 }
 
 .site-main {
-    background-color: aqua
+/*    background-color: aqua*/
 }
 
 .site-main-inner::after {
@@ -31,9 +31,11 @@
 	clear: both;
 }
 
+
+
 .content {
 	height: 400px;
-	width: 68%;
+	width: 36%;
 	background-color: #ddd;
 	float: left;
 }
@@ -41,8 +43,12 @@
 .sidebar {
 	height: 400px;
 	width: 32%;
-	float: right;
+	float: left;
 	background-color: #f1f1f1
 }
 
+.sidebar-left {
+    float: left;
+    background-color: crimson;
+}
 
