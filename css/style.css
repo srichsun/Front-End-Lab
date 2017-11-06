@@ -31,11 +31,9 @@
 	clear: both;
 }
 
-
-
 .content {
 	height: 400px;
-	width: 36%;
+	width: 68%;
 	background-color: #ddd;
 	float: left;
 }
@@ -47,8 +45,9 @@
 	background-color: #f1f1f1
 }
 
-.sidebar-left {
-    float: left;
+.content > .sidebar {
+    width: 47%;
+    float: right;
     background-color: crimson;
 }
 
