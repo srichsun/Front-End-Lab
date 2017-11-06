@@ -2,10 +2,16 @@ body {
     background: #f1f1f1
 }
 
+.site-header {
+    width: 1024px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #30A9DE;
+}
+
 .site-main {
     width: 1024px;
     height: 1000px;
     margin: 0 auto;
     background-color: #566270;
-    float: right;
 }
