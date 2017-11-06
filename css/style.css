@@ -32,10 +32,10 @@
 }
 
 .content {
-	height: 400px;
-	width: 68%;
+    height: 400px;
+    width: 68%;
     background-color: firebrick;
-	float: left;
+    float: left;
 }
 
 .sidebar {
@@ -46,6 +46,10 @@
 }
 
 .sidebar + .content {
-    width: 36%;
+	width: 36%;
+}
+
+.sidebar ~ .sidebar {
+    float: right;
 }
 
