@@ -33,13 +33,19 @@
 
 .content {
 	height: 400px;
-	width: 36%;
+	width: 68%;
     background-color: firebrick;
 	float: left;
 }
 
-.content-big {
-	width: 64%;
+.sidebar {
+    height: 400px;
+	width: 32%;
     background-color: darkorange;
+    float: left;
+}
+
+.sidebar + .content {
+    width: 36%;
 }
 
