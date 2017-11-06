@@ -31,7 +31,7 @@
 	clear: both;
 }
 
-.content-small {
+.content {
 	height: 400px;
 	width: 36%;
     background-color: firebrick;
@@ -39,9 +39,7 @@
 }
 
 .content-big {
-    height: 400px;
 	width: 64%;
     background-color: darkorange;
-	float: left;
 }
 
