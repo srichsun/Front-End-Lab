@@ -31,23 +31,17 @@
 	clear: both;
 }
 
-.content {
+.content-small {
 	height: 400px;
-	width: 68%;
-	background-color: #ddd;
+	width: 36%;
+    background-color: firebrick;
 	float: left;
 }
 
-.sidebar {
-	height: 400px;
-	width: 32%;
+.content-big {
+    height: 400px;
+	width: 64%;
+    background-color: darkorange;
 	float: left;
-	background-color: #f1f1f1
-}
-
-.content > .sidebar {
-    width: 47%;
-    float: right;
-    background-color: crimson;
 }
 
