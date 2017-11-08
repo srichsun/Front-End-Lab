@@ -6,6 +6,13 @@
     position: relative;
 }
 
+/*avoid cant see if elements inside all float*/
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
 
 @media ( min-width: 768px) {
     .container {
