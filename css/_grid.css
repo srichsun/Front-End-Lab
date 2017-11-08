@@ -15,6 +15,10 @@
     margin: 5px 0;
 }
 
+.row {
+    margin: 0 -15px;
+}
+
 .row::after {
     content: '';
     display: block;
