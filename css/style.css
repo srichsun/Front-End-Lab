@@ -46,8 +46,11 @@
     z-index: 1;
 }
 
-.site-footer-inner {
-    height: 100px;
+@media (min-width: 768px) {
+    .site-footer .nav {
+        width: 25%;
+        float: left;
+    }
 }
 
 /*---------------------main---------------------*/
