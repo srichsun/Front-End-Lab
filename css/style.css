@@ -1,4 +1,4 @@
-/*-------------------container-------------------*/
+/*-------------------container------------------*/
 
 .container {
     width: 80%;
@@ -42,34 +42,47 @@
     clear: both;
 }
 
-.content {
+.content,
+.sidebar {
     height: 400px;
-    width: 68%;
+}
+
+.content {
     background-color: firebrick;
-    float: left;
 }
 
 .sidebar {
-    height: 400px;
-    width: 32%;
     background-color: darkorange;
-    float: left;
 }
 
-.sidebar + .content {
-    width: 36%;
-}
+@media ( min-width: 768px) {
+    /*when screen bigger than 768px*/
+    .content {
+        width: 68%;
+        float: left;
+    }
 
-.sidebar ~ .sidebar {
-    float: right;
-}
+    .sidebar {
+        width: 32%;
+        float: left;
+    }
 
-.content:last-child {
-    width: 68%;
-}
+    .sidebar + .content {
+        width: 36%;
+    }
 
-.content:only-child {
-    width: 100%;
+    .sidebar ~ .sidebar {
+        float: right;
+    }
+
+    .content:last-child {
+        width: 68%;
+    }
+
+    .content:only-child {
+        width: 100%;
+    }
+
 }
 
 /*--------------------footer--------------------*/
