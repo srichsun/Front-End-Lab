@@ -34,11 +34,6 @@
 
 /*---------------contain & sidebar--------------*/
 
-.content,
-.sidebar {
-    height: 500px;
-}
-
 @media ( min-width: 768px) {
 
     .content {

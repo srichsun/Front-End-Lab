@@ -2,6 +2,7 @@
 @import url(_layout.css);
 @import url(_nav.css);
 @import url(_helper.css);
+@import url(_grid.css);
 
 
 /*--------------------header--------------------*/
@@ -54,6 +55,11 @@
 }
 
 /*---------------------main---------------------*/
+
+.content {
+    margin: 50px 0;
+    background-color: #f1f1f1
+}
 
 .site-main {
     position: relative;
