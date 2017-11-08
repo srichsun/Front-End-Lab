@@ -12,3 +12,8 @@ a {
 a:hover {
     color: #4ea1d3;
 }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
