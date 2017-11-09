@@ -6,15 +6,15 @@
     float: left !important;
 }
 
-.dark-background {
+.luxury-background {
     background-color: black;
-    color: white;
+    color: black;
 }
 
-.dark-background a {
-    color: white;
+.luxury-background a {
+    color: black;
 }
 
-.dark-background a:hover {
+.luxury-background a:hover {
     color: rgba(255, 255, 255, .6);
 }
