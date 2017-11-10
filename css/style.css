@@ -1,8 +1,9 @@
 @import url(_global.css);
 @import url(_layout.css);
+@import url(_typography.css);
 @import url(_nav.css);
-@import url(_helper.css);
 @import url(_grid.css);
+@import url(_helper.css);
 
 
 /*--------------------header--------------------*/
@@ -58,7 +59,7 @@
 
 .content {
     margin: 50px 0;
-    background-color: #f1f1f1
+    /*    background-color: #f1f1f1;*/
 }
 
 .site-main {
