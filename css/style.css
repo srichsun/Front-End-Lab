@@ -1,3 +1,5 @@
+/*individule module*/
+
 @import url(_global.css);
 @import url(_layout.css);
 @import url(_typography.css);
@@ -7,6 +9,13 @@
 @import url(_table.css);
 @import url(_form.css);
 @import url(_grid.css);
+
+/*combined module*/
+
+@import url(_card.css);
+
+/*helper module*/
+
 @import url(_helper.css);
 
 

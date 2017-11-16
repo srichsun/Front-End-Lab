@@ -22,14 +22,5 @@
     font-weight: 500;
     line-height: 1;
     margin-top: 0;
-    margin-bottom: 15px;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-.img-rounded {
-    border-radius: 50%;
+    margin-bottom: 0px;
 }
