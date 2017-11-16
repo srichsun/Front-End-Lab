@@ -9,7 +9,7 @@
     font-weight: 500;
 }
 
-.table tr,
+.table th,
 .table td {
     padding: 8px 10px;
     border-bottom: 1px solid #DCDCDC;
@@ -26,4 +26,9 @@
 
 .table tr:last-child td {
     border-bottom: none;
+}
+
+.card > .table {
+    border-left: none;
+    border-right: none;
 }
