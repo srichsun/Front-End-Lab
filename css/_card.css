@@ -1,6 +1,6 @@
 .card {
     box-shadow: 0 0 10px rgba(0, 1, 2, .2);
-    positon: relative;
+    position: relative;
 }
 
 .card-content {
@@ -14,4 +14,21 @@
 
 .card .title + p {
     margin-top: 0;
+}
+
+
+@media (min-width: 992px) {
+	.card-horizontal .card-content{
+		background-color: white;
+		position: absolute;
+		width: 50%;
+		height: 100%;
+		top: 0;
+		right: 0;
+		z-index: 1 ;
+	}
+	.card-horizontal-left  .card-content{
+		right: auto;
+		left: 0 ;
+	}
 }
