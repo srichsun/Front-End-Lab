@@ -1,3 +1,58 @@
+/*--------------------header--------------------*/
+
+.site-header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+}
+
+
+.site-logo {
+    text-transform: uppercase;
+    font-weight: 800;
+    float: left;
+}
+
+.site-logo,
+.site-header-toggle,
+.site-menu .nav-link {
+    padding: 20px 10px;
+}
+
+@media (max-width: 992px) {
+    .site-menu {
+        white-space: nowrap;
+        width: 100%;
+        overflow: auto;
+    }
+}
+
+.site-banner {
+    margin-top: -140px;
+}
+
+
+/*---------------------main---------------------*/
+
+.content {
+    margin: 50px 0;
+    /*    background-color: #f1f1f1;*/
+}
+
+.site-main {
+    position: relative;
+    z-index: 1;
+}
+
+.site-main-inner::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
 /*-------------------container------------------*/
 
 .container-fluid,
@@ -66,4 +121,18 @@
         width: 100%;
     }
 
+}
+
+/*--------------------footer--------------------*/
+
+.site-footer {
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .site-footer .nav {
+        width: 25%;
+        float: left;
+    }
 }
