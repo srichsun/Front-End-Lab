@@ -1,23 +1,24 @@
-.float-right {
+.pull-right {
     float: right !important;
 }
 
-.float-left {
+.pull-left {
     float: left !important;
 }
 
-.luxury-background {
-    background-color: black;
-    color: black;
+.dark-bg {
+    background-color: #000;
+    color: #fff;
 }
 
-.luxury-background a {
-    color: black;
+.dark-bg a {
+    color: #fff;
 }
 
-.luxury-background a:hover {
+.dark-bg a:hover {
     color: rgba(255, 255, 255, .6);
 }
+
 
 /*上下距離*/
 
