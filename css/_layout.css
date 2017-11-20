@@ -129,10 +129,3 @@
     position: relative;
     z-index: 1;
 }
-
-@media (min-width: 768px) {
-    .site-footer .nav {
-        width: 25%;
-        float: left;
-    }
-}
