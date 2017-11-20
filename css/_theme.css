@@ -7,3 +7,24 @@
 
     margin-bottom: 30px;
 }
+
+.news-feature .title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.card .nav-link {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.card .card-contet {
+    font-weight: 300;
+}
+
+.block-title {
+    font-size: 14px;
+    font-weight: 800;
+    color: #000;
+}
