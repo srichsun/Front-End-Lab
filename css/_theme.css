@@ -28,3 +28,27 @@
     font-weight: 800;
     color: #000;
 }
+
+.site-footer {
+    padding: 30px 0;
+}
+
+.site-footer .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-footer .block-title {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+.dark-bg .nav-link {
+    font-size: 13px;
+    color: #ccc;
+}
+
+.dark-bg .block-title {
+    color: #fff;
+}
