@@ -189,3 +189,25 @@
     overflow: hidden;
     margin-bottom: 30px;
 }
+
+/*footer*/
+
+.site-footer {
+    margin-top: 60px;
+    padding: 40px 0;
+    background-color: #404344;
+}
+
+@media (max-width: 992px) {
+    .site-footer {
+        display: none;
+    }
+}
+
+.site-footer .nav-link {
+    font-size: 13px;
+}
+
+.site-footer .block-title {
+    margin-bottom: 18px;
+}
