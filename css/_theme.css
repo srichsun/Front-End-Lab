@@ -77,6 +77,12 @@
     }
 }
 
+@media (min-width: 992px) {
+    .site-header-toggle {
+        display: none;
+    }
+}
+
 /*menu*/
 
 .site-menu .nav-link {
@@ -119,4 +125,15 @@
     overflow: hidden;
     background: url('../images/1.jpeg') center center no-repeat;
     background-size: cover;
+}
+
+.site-banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 80%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+
 }
