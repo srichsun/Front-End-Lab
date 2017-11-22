@@ -60,3 +60,9 @@
         display: none;
     }
 }
+
+/*text color*/
+
+.text-white {
+    color: white;
+}
