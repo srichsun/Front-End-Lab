@@ -21,3 +21,7 @@
 /*other*/
 
 @import url(_theme.css);
+
+body {
+    background-color: aqua;
+}
